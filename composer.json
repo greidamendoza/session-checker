@@ -1,0 +1,19 @@
+{
+    "name": "greidamendoza/session-checker",
+    "description": "verifica si tiene una sesión abierta en otro navegador",    
+    "authors": [
+        {
+            "name": "Greida Mendoza",
+            "email": "greida@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^10.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "greidamendoza\\SessionChecker\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
